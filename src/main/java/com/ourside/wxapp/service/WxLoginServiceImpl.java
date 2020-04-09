@@ -35,8 +35,8 @@ public class WxLoginServiceImpl implements WxLoginService {
      */
     @Override
     public DoResult apiLogin(String code) {
-        String appid = "wx9fe0dfec6f948f0b";
-        String secret = "cb72cd858b0b9002b79cb8d808b94a57";
+        String appid = "xxxx";
+        String secret = "xxxxx";
         String url = "https://api.weixin.qq.com/sns/jscode2session?appid="
                 + appid
                 + "&secret=" + secret
